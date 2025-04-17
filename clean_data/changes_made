@@ -1,0 +1,25 @@
+NOTE: tripduration in seconds
+
+2019
+- added day of week
+- added age
+
+2020
+- Removed
+    - start_lat
+    - start_lng
+    - end_lat
+    - end_lng
+    - rideable_type
+- changed ride_id -> trip_id
+- added day
+- added tripduration
+- member_casual to usertype
+    - member -> Subscriber
+    - casual -> Customer
+- start_station_name -> from_station_name
+- start_station_id -> from_station_id
+- started_at -> start_time
+- ended_at -> end_time
+- end_station_name -> to_station_name
+- end_station_id -> to_station_id
